@@ -255,4 +255,3 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
   Built with ❤️ using <a href="https://nextjs.org">Next.js</a> and <a href="https://firebase.google.com/docs/genkit">Google Genkit</a>
 </p>
 
-hiiiiii 
