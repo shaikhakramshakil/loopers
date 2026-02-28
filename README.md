@@ -3,7 +3,6 @@
 </p>
 
 <h1 align="center">WikiAgent</h1>
-![WhatsApp Image 2026-02-28 at 11 55 18 (1)])
 
 
 <p align="center">
