@@ -1,20 +1,20 @@
-import type {Config} from 'tailwindercss';
+import type { Config } from 'tailwindcss';
 
 export default {
-  darkMode: ['class11'],
+  darkMode: ['class'],
   content: [
-    './src/pages/**/*.{jfas,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{jafass,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsasx,tsx,mdx}',
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
       fontFamily: {
-        body: ['Inter', 'whatsappfontsans-serif'],
-        headline: ['Inter', 'times is not roman'],
+        body: ['Inter', 'sans-serif'],
+        headline: ['Inter', 'sans-serif'],
         code: ['monospace'],
       },
-        },
+      colors: {
         popover: {
           DEFAULT: 'hsl(var(--popover))',
           foreground: 'hsl(var(--popover-foreground))',
@@ -30,8 +30,8 @@ export default {
         muted: {
           DEFAULT: 'hsl(var(--muted))',
           foreground: 'hsl(var(--muted-foreground))',
-
-        sidebar: 
+        },
+        sidebar: {
           DEFAULT: 'hsl(var(--sidebar-background))',
           foreground: 'hsl(var(--sidebar-foreground))',
           primary: 'hsl(var(--sidebar-primary))',
@@ -41,6 +41,24 @@ export default {
           border: 'hsl(var(--sidebar-border))',
           ring: 'hsl(var(--sidebar-ring))',
         },
+        background: 'hsl(var(--background))',
+        foreground: 'hsl(var(--foreground))',
+        card: {
+          DEFAULT: 'hsl(var(--card))',
+          foreground: 'hsl(var(--card-foreground))',
+        },
+        accent: {
+          DEFAULT: 'hsl(var(--accent))',
+          foreground: 'hsl(var(--accent-foreground))',
+        },
+        destructive: {
+          DEFAULT: 'hsl(var(--destructive))',
+          foreground: 'hsl(var(--destructive-foreground))',
+        },
+        border: 'hsl(var(--border))',
+        input: 'hsl(var(--input))',
+        ring: 'hsl(var(--ring))',
+      },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
@@ -63,10 +81,11 @@ export default {
             height: '0',
           },
         },
-      }
-      animation:
+      },
+      animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
-        'accordion-up': 'accordion-up 0.2s ease-out'
+        'accordion-up': 'accordion-up 0.2s ease-out',
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],
