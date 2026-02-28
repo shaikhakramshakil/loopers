@@ -1,8 +1,10 @@
 <p align="center">
-  <img src="https://img.icons8.com/fluency/96/wikipedia.png" alt="WikiAgent Logo" width="96" height="96"/>
+  <img src="https://github.com/user-attachments/assets/9551f4fe-3cf8-4327-a598-72e8bb217d9c" alt="WikiAgent Logo" width="96" height="96"/>
 </p>
 
 <h1 align="center">WikiAgent</h1>
+![WhatsApp Image 2026-02-28 at 11 55 18 (1)])
+
 
 <p align="center">
   <strong>AI-Powered Wikipedia Question Answering Agent</strong>
